@@ -1,6 +1,6 @@
 <template>
   <form class="process-form">
-    <h3 class="h3">{{ survey.Header }}</h3>
+    <h3 class="h3">{{ questions.Header }}</h3>
     <div class="list-holder">
       <input v-if="survey.label && survey.label.one" class="checkbox-tools" type="radio" name="tools" :id="survey.label.one">
       <label v-if="survey.label && survey.label.one" class="for-checkbox-tools" :for="survey.label.one">
@@ -29,7 +29,7 @@
 <script>
 export default {
   name: "processForm",
-  props: ['survey']
+  props: ['questions']
 }
 </script>
 

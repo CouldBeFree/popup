@@ -1,9 +1,9 @@
 <template>
   <div class="process">
     <process-form
-      v-for="survey in surveys"
-      :survey="survey"
-      :key="survey.id"
+      v-for="questions in surveys"
+      :questions="questions"
+      :key="questions.id"
     />
   </div>
 </template>
