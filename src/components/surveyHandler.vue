@@ -3,7 +3,7 @@
     <process-form
       v-for="survey in surveys"
       :survey="survey"
-      :key="survey.key"
+      :key="survey.id"
     />
   </div>
 </template>

@@ -61,44 +61,53 @@ export default {
           id: '1',
           question1: {
             Header: "How satisfied are you with service process",
+            label: {
+              one: 'tool-1',
+              two: 'tool-2',
+              three: 'tool-3',
+              four: 'tool-4',
+              five: 'tool-5'
+            },
             mark: {
               one: '1',
               two: '2',
               three: '3',
               four: '4',
               five: '5'
-            },
-            satisfactionLevel: {
-              no: 'Very unsatisfied',
-              yes: 'Very Satisfied'
             }
           },
           question2: {
             Header: "How clear is the work of our services to you?",
+            label: {
+              one: 'tool-6',
+              two: 'tool-7',
+              three: 'tool-8',
+              four: 'tool-9',
+              five: 'tool-10'
+            },
             mark: {
               one: '1',
               two: '2',
               three: '3',
               four: '4',
               five: '5'
-            },
-            satisfactionLevel: {
-              no: 'Very unsatisfied',
-              yes: 'Very Satisfied'
             }
           },
           question3: {
             Header: "The likelihood that you will recommend us",
+            label: {
+              one: 'tool-11',
+              two: 'tool-12',
+              three: 'tool-13',
+              four: 'tool-14',
+              five: 'tool-15'
+            },
             mark: {
               one: '1',
               two: '2',
               three: '3',
               four: '4',
               five: '5'
-            },
-            satisfactionLevel: {
-              no: 'Very unsatisfied',
-              yes: 'Very Satisfied'
             }
           }
         },
@@ -106,44 +115,53 @@ export default {
           id: '2',
           question1: {
             Header: "How much do you like oranges?",
+            label: {
+              one: 'tool-16',
+              two: 'tool-17',
+              three: 'tool-18',
+              four: 'tool-19',
+              five: 'tool-20'
+            },
             mark: {
               one: '1',
               two: '2',
               three: '3',
               four: '4',
               five: '5'
-            },
-            satisfactionLevel: {
-              no: 'Very unsatisfied',
-              yes: 'Very Satisfied'
             }
           },
           question2: {
             Header: "How much do you like apples?",
+            label: {
+              one: 'tool-21',
+              two: 'tool-22',
+              three: 'tool-23',
+              four: 'tool-24',
+              five: 'tool-25'
+            },
             mark: {
               one: '1',
               two: '2',
               three: '3',
               four: '4',
               five: '5'
-            },
-            satisfactionLevel: {
-              no: 'Very unsatisfied',
-              yes: 'Very Satisfied'
             }
           },
           question3: {
             Header: "How much do you like grapes?",
+            label: {
+              one: 'tool-26',
+              two: 'tool-27',
+              three: 'tool-28',
+              four: 'tool-29',
+              five: 'tool-30'
+            },
             mark: {
               one: '1',
               two: '2',
               three: '3',
               four: '4',
               five: '5'
-            },
-            satisfactionLevel: {
-              no: 'Very unsatisfied',
-              yes: 'Very Satisfied'
             }
           }
         },
@@ -151,44 +169,53 @@ export default {
           id: '3',
           question1: {
             Header: "How much do you like Ferrary?",
+            label: {
+              one: 'tool-31',
+              two: 'tool-32',
+              three: 'tool-33',
+              four: 'tool-34',
+              five: 'tool-35'
+            },
             mark: {
               one: '1',
               two: '2',
               three: '3',
               four: '4',
               five: '5'
-            },
-            satisfactionLevel: {
-              no: 'Very unsatisfied',
-              yes: 'Very Satisfied'
             }
           },
           question2: {
             Header: "How much do you like Mecedes?",
+            label: {
+              one: 'tool-36',
+              two: 'tool-37',
+              three: 'tool-38',
+              four: 'tool-39',
+              five: 'tool-40'
+            },
             mark: {
               one: '1',
               two: '2',
               three: '3',
               four: '4',
               five: '5'
-            },
-            satisfactionLevel: {
-              no: 'Very unsatisfied',
-              yes: 'Very Satisfied'
             }
           },
           question3: {
             Header: "How much do you like Porsche?",
+            label: {
+              one: 'tool-41',
+              two: 'tool-42',
+              three: 'tool-43',
+              four: 'tool-44',
+              five: 'tool-45'
+            },
             mark: {
               one: '1',
               two: '2',
               three: '3',
               four: '4',
               five: '5'
-            },
-            satisfactionLevel: {
-              no: 'Very unsatisfied',
-              yes: 'Very Satisfied'
             }
           }
         }
