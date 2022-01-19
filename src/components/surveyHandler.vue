@@ -91,12 +91,27 @@ export default {
   border: 1px solid #e6e6e6;
   border-left: none;
 }
-.list-holder .checkbox-tools:first-child:not(:checked) + label, .list-holder .checkbox-tools:first-child:checked + label {
+.list-holder .checkbox:first-child .checkbox-tools:not(:checked) + label {
   border-radius: 10px 0 0 10px;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
   border-left: 1px solid #e6e6e6;
 }
-.list-holder .checkbox-tools:not(:checked):last-of-type + label, .list-holder .checkbox-tools:checked:last-of-type + label {
+.list-holder .checkbox:first-child .checkbox-tools:checked + label {
+  border-radius: 10px 0 0 10px;
+  border-top: 1px solid #1c5a7d;
+  border-bottom: 1px solid #1c5a7d;
+  border-left: 1px solid #1c5a7d;
+}
+.list-holder .checkbox:last-of-type .checkbox-tools:not(:checked) + label {
   border-radius: 0 10px 10px 0;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+.list-holder .checkbox:last-of-type .checkbox-tools:checked + label {
+  border-radius: 0 10px 10px 0;
+  border-top: 1px solid #1c5a7d;
+  border-bottom: 1px solid #1c5a7d;
 }
 .list-holder .checkbox-tools:checked + label::before,
 .list-holder .checkbox-tools:not(:checked) + label::before{
@@ -110,11 +125,10 @@ export default {
   box-sizing: border-box;
   z-index: -1;
 }
-/*.list-holder .checkbox-tools + label:first-child::before {
-  border-radius: 4px 0 0 4px;
-}*/
 .list-holder .checkbox-tools:checked + label{
   background-color: #1c5a7d;
   color: #fff;
+  border-top: 1px solid #1c5a7d;
+  border-bottom: 1px solid #1c5a7d;
 }
 </style>
