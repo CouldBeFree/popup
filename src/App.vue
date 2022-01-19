@@ -71,54 +71,33 @@ export default {
               id: "1",
               Header: "How satisfied are you with service process",
               labels: [
-                {one: "tool-1"},
-                {two: "tool-2"},
-                {three: "tool-3"},
-                {four: "tool-4"},
-                {five: "tool-5"}
-              ],
-              marks: [
-                {one: "1"},
-                {two: "2"},
-                {three: "3"},
-                {four: "4"},
-                {five: "5"}
+                {index: "tool-1", mark: "1"},
+                {index: "tool-2", mark: "2"},
+                {index: "tool-3", mark: "3"},
+                {index: "tool-4", mark: "4"},
+                {index: "tool-5", mark: "5"}
               ]
             },
             {
               id: "2",
               Header: "How clear is the work of our services to you?",
               labels: [
-                {one: "tool-6"},
-                {two: "tool-7"},
-                {three: "tool-8"},
-                {four: "tool-9"},
-                {five: "tool-10"}
-              ],
-              marks: [
-                {one: "1"},
-                {two: "2"},
-                {three: "3"},
-                {four: "4"},
-                {five: "5"}
+                {index: "tool-6", mark: "1"},
+                {index: "tool-7", mark: "2"},
+                {index: "tool-8", mark: "3"},
+                {index: "tool-9", mark: "4"},
+                {index: "tool-10", mark: "5"}
               ]
             },
             {
               id: "3",
               Header: "The likelihood that you will recommend us",
               labels: [
-                {one: "tool-11"},
-                {two: "tool-12"},
-                {three: "tool-13"},
-                {four: "tool-14"},
-                {five: "tool-15"}
-              ],
-              marks: [
-                {one: "1"},
-                {two: "2"},
-                {three: "3"},
-                {four: "4"},
-                {five: "5"}
+                {index: "tool-11", mark: "1"},
+                {index: "tool-12", mark: "2"},
+                {index: "tool-13", mark: "3"},
+                {index: "tool-14", mark: "4"},
+                {index: "tool-15", mark: "5"}
               ]
             }
           ]
@@ -130,54 +109,33 @@ export default {
               id: "4",
               Header: "How much do you like oranges?",
               labels: [
-                {one: "tool-16"},
-                {two: "tool-17"},
-                {three: "tool-18"},
-                {four: "tool-19"},
-                {five: "tool-20"}
-              ],
-              marks: [
-                {one: "1"},
-                {two: "2"},
-                {three: "3"},
-                {four: "4"},
-                {five: "5"}
+                {index: "tool-16", mark: "1"},
+                {index: "tool-17", mark: "2"},
+                {index: "tool-18", mark: "3"},
+                {index: "tool-19", mark: "4"},
+                {index: "tool-20", mark: "5"}
               ]
             },
             {
               id: "5",
               Header: "How much do you like apples?",
               labels: [
-                {one: "tool-21"},
-                {two: "tool-22"},
-                {three: "tool-23"},
-                {four: "tool-24"},
-                {five: "tool-25"}
-              ],
-              marks: [
-                {one: "1"},
-                {two: "2"},
-                {three: "3"},
-                {four: "4"},
-                {five: "5"}
+                {index: "tool-21", mark: "1"},
+                {index: "tool-22", mark: "2"},
+                {index: "tool-23", mark: "3"},
+                {index: "tool-24", mark: "4"},
+                {index: "tool-25", mark: "5"}
               ]
             },
             {
               id: "6",
               Header: "How much do you like grapes?",
               labels: [
-                {one: "tool-26"},
-                {two: "tool-27"},
-                {three: "tool-28"},
-                {four: "tool-29"},
-                {five: "tool-30"}
-              ],
-              marks: [
-                {one: "1"},
-                {two: "2"},
-                {three: "3"},
-                {four: "4"},
-                {five: "5"}
+                {index: "tool-26", mark: "1"},
+                {index: "tool-27", mark: "2"},
+                {index: "tool-28", mark: "3"},
+                {index: "tool-29", mark: "4"},
+                {index: "tool-30", mark: "5"}
               ]
             }
           ]
@@ -189,54 +147,33 @@ export default {
               id: "7",
               Header: "How much do you like Ferrary?",
               labels: [
-                {one: "tool-31"},
-                {two: "tool-32"},
-                {three: "tool-33"},
-                {four: "tool-34"},
-                {five: "tool-35"}
-              ],
-              marks: [
-                {one: "1"},
-                {two: "2"},
-                {three: "3"},
-                {four: "4"},
-                {five: "5"}
+                {index: "tool-31", mark: "1"},
+                {index: "tool-32", mark: "2"},
+                {index: "tool-33", mark: "3"},
+                {index: "tool-34", mark: "4"},
+                {index: "tool-35", mark: "5"}
               ]
             },
             {
               id: "8",
               Header: "How much do you like Mecedes?",
               labels: [
-                {one: "tool-36"},
-                {two: "tool-37"},
-                {three: "tool-38"},
-                {four: "tool-39"},
-                {five: "tool-40"}
-              ],
-              marks: [
-                {one: "1"},
-                {two: "2"},
-                {three: "3"},
-                {four: "4"},
-                {five: "5"}
+                {index: "tool-36", mark: "1"},
+                {index: "tool-37", mark: "2"},
+                {index: "tool-38", mark: "3"},
+                {index: "tool-39", mark: "4"},
+                {index: "tool-40", mark: "5"}
               ]
             },
             {
               id: "9",
               Header: "How much do you like Porsche?",
               labels: [
-                {one: "tool-41"},
-                {two: "tool-42"},
-                {three: "tool-43"},
-                {four: "tool-44"},
-                {five: "tool-45"}
-              ],
-              marks: [
-                {one: "1"},
-                {two: "2"},
-                {three: "3"},
-                {four: "4"},
-                {five: "5"}
+                {index: "tool-41", mark: "1"},
+                {index: "tool-42", mark: "2"},
+                {index: "tool-43", mark: "3"},
+                {index: "tool-44", mark: "4"},
+                {index: "tool-45", mark: "5"}
               ]
             }
           ]
