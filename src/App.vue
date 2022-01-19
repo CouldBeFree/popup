@@ -8,6 +8,7 @@
         </div>
         <h2 class="h2">{{ heading }}</h2>
         <transition-group tag="div" class="div-slider" :name="back? 'slideback' : 'slide'">
+          <h3 class="h3">{{ subHeading }}</h3>
           <div v-if="currentIndex === 0" key="1">
             <div class="card">
               <SurveyHandler
@@ -62,14 +63,14 @@ export default {
         2: false
       },
       heading: 'Rate your experience with Employee Transfer service',
-      heading2: 'Service process',
+      subHeading: 'Service process',
       surveys: [
         {
           id: "1",
           questions: [
             {
               id: "1",
-              Header: "How satisfied are you with service process",
+              header: "How satisfied are you with service process",
               labels: [
                 {index: "tool-1", mark: "1"},
                 {index: "tool-2", mark: "2"},
@@ -80,7 +81,7 @@ export default {
             },
             {
               id: "2",
-              Header: "How clear is the work of our services to you?",
+              header: "How clear is the work of our services to you?",
               labels: [
                 {index: "tool-6", mark: "1"},
                 {index: "tool-7", mark: "2"},
@@ -91,7 +92,7 @@ export default {
             },
             {
               id: "3",
-              Header: "The likelihood that you will recommend us",
+              header: "The likelihood that you will recommend us",
               labels: [
                 {index: "tool-11", mark: "1"},
                 {index: "tool-12", mark: "2"},
@@ -107,7 +108,7 @@ export default {
           questions: [
             {
               id: "4",
-              Header: "How much do you like oranges?",
+              header: "How much do you like oranges?",
               labels: [
                 {index: "tool-16", mark: "1"},
                 {index: "tool-17", mark: "2"},
@@ -118,7 +119,7 @@ export default {
             },
             {
               id: "5",
-              Header: "How much do you like apples?",
+              header: "How much do you like apples?",
               labels: [
                 {index: "tool-21", mark: "1"},
                 {index: "tool-22", mark: "2"},
@@ -129,7 +130,7 @@ export default {
             },
             {
               id: "6",
-              Header: "How much do you like grapes?",
+              header: "How much do you like grapes?",
               labels: [
                 {index: "tool-26", mark: "1"},
                 {index: "tool-27", mark: "2"},
@@ -145,7 +146,7 @@ export default {
           questions: [
             {
               id: "7",
-              Header: "How much do you like Ferrary?",
+              header: "How much do you like Ferrary?",
               labels: [
                 {index: "tool-31", mark: "1"},
                 {index: "tool-32", mark: "2"},
@@ -156,7 +157,7 @@ export default {
             },
             {
               id: "8",
-              Header: "How much do you like Mecedes?",
+              header: "How much do you like Mecedes?",
               labels: [
                 {index: "tool-36", mark: "1"},
                 {index: "tool-37", mark: "2"},
@@ -167,7 +168,7 @@ export default {
             },
             {
               id: "9",
-              Header: "How much do you like Porsche?",
+              header: "How much do you like Porsche?",
               labels: [
                 {index: "tool-41", mark: "1"},
                 {index: "tool-42", mark: "2"},

@@ -18,14 +18,17 @@ export default {
 </script>
 
 <style>
+.process {
+
+}
 .process-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.process-form .h3 {
-  font-size: 14px;
+.process-form .h4 {
+  font-size: 11px;
   line-height: 1.2;
   text-align: center;
 }
