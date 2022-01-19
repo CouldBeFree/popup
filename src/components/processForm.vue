@@ -1,26 +1,26 @@
 <template>
   <form class="process-form">
-    <h3 class="h3">{{ questions.Header }}</h3>
+    <h3 class="h3">{{ question.Header }}</h3>
     <div class="list-holder">
-      <input v-if="survey.label && survey.label.one" class="checkbox-tools" type="radio" name="tools" :id="survey.label.one">
-      <label v-if="survey.label && survey.label.one" class="for-checkbox-tools" :for="survey.label.one">
-        {{ survey.mark.one }}
+      <input v-if="question.labels[0] && question.labels[0].one" class="checkbox-tools" type="radio" name="tools" :id="question.labels[0].one">
+      <label v-if="question.labels[0] && question.labels[0].one" class="for-checkbox-tools" :for="question.labels[0].one">
+        {{ question.marks[0].one }}
       </label>
-      <input v-if="survey.label && survey.label.two" class="checkbox-tools" type="radio" name="tools" :id="survey.label.two">
-      <label v-if="survey.label && survey.label.two" class="for-checkbox-tools" :for="survey.label.two">
-        {{ survey.mark.two }}
+      <input v-if="question.labels[1] && question.labels[1].two" class="checkbox-tools" type="radio" name="tools" :id="question.labels[1].two">
+      <label v-if="question.labels[1] && question.labels[1].two" class="for-checkbox-tools" :for="question.labels[1].two">
+        {{ question.marks[1].two }}
       </label>
-      <input v-if="survey.label && survey.label.three" class="checkbox-tools" type="radio" name="tools" :id="survey.label.three">
-      <label v-if="survey.label && survey.label.three" class="for-checkbox-tools" :for="survey.label.three">
-        {{ survey.mark.three }}
+      <input v-if="question.labels[2] && question.labels[2].three" class="checkbox-tools" type="radio" name="tools" :id="question.labels[2].three">
+      <label v-if="question.labels[2] && question.labels[2].three" class="for-checkbox-tools" :for="question.labels[2].three">
+        {{ question.marks[2].three }}
       </label>
-      <input v-if="survey.label && survey.label.four" class="checkbox-tools" type="radio" name="tools" :id="survey.label.four">
-      <label v-if="survey.label && survey.label.four" class="for-checkbox-tools" :for="survey.label.four">
-        {{ survey.mark.four }}
+      <input v-if="question.labels[3] && question.labels[3].four" class="checkbox-tools" type="radio" name="tools" :id="question.labels[3].four">
+      <label v-if="question.labels[3] && question.labels[3].four" class="for-checkbox-tools" :for="question.labels[3].four">
+        {{ question.marks[3].four }}
       </label>
-      <input v-if="survey.label && survey.label.five" class="checkbox-tools" type="radio" name="tools" :id="survey.label.five">
-      <label v-if="survey.label && survey.label.five" class="for-checkbox-tools" :for="survey.label.five">
-        {{ survey.mark.five }}
+      <input v-if="question.labels[4] && question.labels[4].five" class="checkbox-tools" type="radio" name="tools" :id="question.labels[4].five">
+      <label v-if="question.labels[4] && question.labels[4].five" class="for-checkbox-tools" :for="question.labels[4].five">
+        {{ question.marks[4].five }}
       </label>
     </div>
   </form>
@@ -29,7 +29,7 @@
 <script>
 export default {
   name: "processForm",
-  props: ['questions']
+  props: ['question']
 }
 </script>
 

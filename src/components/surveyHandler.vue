@@ -1,9 +1,9 @@
 <template>
   <div class="process">
     <process-form
-      v-for="questions in surveys"
-      :questions="questions"
-      :key="questions.id"
+      v-for="question in survey.questions"
+      :question="question"
+      :key="question.id"
     />
   </div>
 </template>
@@ -13,7 +13,7 @@ import processForm from "./processForm";
 export default {
   name: "surveyHandler",
   components: {processForm},
-  props: ['surveys']
+  props: ['survey']
 }
 </script>
 
