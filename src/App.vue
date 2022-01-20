@@ -50,6 +50,7 @@
 
 <script>
 import SurveyHandler from "@/components/surveyHandler";
+import axios from "./utils/axios"
 
 export default {
   name: 'App',
@@ -185,7 +186,13 @@ export default {
   components: {
     SurveyHandler
   },
-  methods: {
+  mounted() {
+		axios.get('/context')
+      .then(res => {
+				console.log("res", res)
+      })
+	},
+	methods: {
     onFilled() {
       this.disabled = false
     },
